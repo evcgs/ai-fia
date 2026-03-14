@@ -109,46 +109,6 @@ FIA-X 自带完整的创新知识库，开箱即用：
 | 🔍 行业共识库 | 覆盖医疗 AI、新能源、互联网 3 大主流行业，包含 39 条主流共识 + 反共识突破方向 |
 | 🧠 思维模型库 | 6 大类近 100 个可迁移思维模型，覆盖自然科学、社会科学、工程技术、商业管理等领域 |
 ---
-## 📁 项目结构
-```
-ai-fia/
-├── SKILL.md              # OpenClaw 技能元数据（自动识别加载）
-├── readme.md             # 本说明文档
-├── install.md            # 详细安装和使用指南
-├── extension-spec.md     # 行业扩展接口规范（支持定制行业版本）
-├── changelog.md          # 版本更新记录
-├── scripts/              # 3 个核心可执行工具
-│   ├── fia-innovation-assistant.py
-│   ├── innovation-evaluation-tool.py
-│   └── anti-consensus-mining-tool.py
-└── references/           # 完整知识库
-    ├── templates/        # 标准化模板
-    ├── case-library/     # 创新案例库
-    ├── industry-consensus-library/  # 行业共识库
-    └── thinking-models-library.md   # 思维模型库
-```
----
-## 📝 版本记录
-### v1.0.0 | 2026-03-14
-🎉 首次正式发布
-- ✅ 三大认知支柱核心框架
-- ✅ 十步标准化创新流程
-- ✅ 3 个核心自动化工具
-- ✅ 完整知识库（模板/案例/共识库/思维模型）
-- ✅ 完全兼容 OpenClaw 技能规范，开箱即用
-- ✅ 零依赖，纯 Python 开发，支持所有操作系统
----
-## 💬 联系我们
-### 加入社区
-吃虾交流群，请扫如下二维码，注明来意：
-
-![FIA-X 交流群](./images/wxq.png)
-
-### 微信入群
-如以上二维码过期，扫描如下二维码拉群：
-
-![创始人微信](./images/wx.png)
----
 ## 💡 创新使用场景
 ### 🔹 场景1：创业项目创新孵化
 ```bash
@@ -198,6 +158,43 @@ python scripts/innovation-evaluation-tool.py --batch projects.json
 
 自动输出完整的创新方案和报告，开箱即用。
 
+---
+## 📁 项目结构
+```
+ai-fia/
+├── SKILL.md              # OpenClaw 技能元数据（自动识别加载）
+├── readme.md             # 本说明文档
+├── install.md            # 详细安装和使用指南
+├── extension-spec.md     # 行业扩展接口规范（支持定制行业版本）
+├── changelog.md          # 版本更新记录
+├── scripts/              # 3 个核心可执行工具
+│   ├── fia-innovation-assistant.py
+│   ├── innovation-evaluation-tool.py
+│   └── anti-consensus-mining-tool.py
+└── references/           # 完整知识库
+    ├── templates/        # 标准化模板
+    ├── case-library/     # 创新案例库
+    ├── industry-consensus-library/  # 行业共识库
+    └── thinking-models-library.md   # 思维模型库
+```
+---
+## 📝 版本记录
+### v1.0.0 | 2026-03-14
+🎉 首次正式发布
+- ✅ 三大认知支柱核心框架
+- ✅ 十步标准化创新流程
+- ✅ 3 个核心自动化工具
+- ✅ 完整知识库（模板/案例/共识库/思维模型）
+- ✅ 完全兼容 OpenClaw 技能规范，开箱即用
+- ✅ 零依赖，纯 Python 开发，支持所有操作系统
+---
+## 💬 联系我们
+### 加入社区
+扫描如下二维码加入 FIA-X 官方交流群，注明来意：
+![FIA-X 交流群](./images/wxq.png)
+### 微信入群
+如以上二维码过期，扫描如下二维码拉群：
+![创始人微信](./images/wx.png)
 ---
 ## 🤝 贡献指南
 我们欢迎所有形式的贡献！无论是提交 bug、建议新功能、贡献行业扩展包，都请参考 [CONTRIBUTING.md](CONTRIBUTING.md) 了解详细流程。

@@ -1,0 +1,29 @@
+# 敏感信息备份
+*.sensitive.backup
+TOOLS.md.sensitive.backup
+
+# OpenClaw运行时数据
+sessions/
+memory/*.md
+!memory/.gitkeep
+
+# 本地配置
+.env
+.env.local
+
+# 日志
+*.log
+logs/
+
+# 临时文件
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~

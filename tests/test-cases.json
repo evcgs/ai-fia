@@ -1,0 +1,44 @@
+{
+  "test_cases": [
+    {
+      "id": "test-001",
+      "name": "fia-innovation-assistant.py 基本运行测试",
+      "type": "unit",
+      "command": "python scripts/fia-innovation-assistant.py --project \"测试项目\" --batch",
+      "expected_output": ["FIA-X创新流程助手", "项目名称：测试项目", "Step 1：问题本质拆解"],
+      "timeout": 10
+    },
+    {
+      "id": "test-002",
+      "name": "innovation-evaluation-tool.py 基本运行测试",
+      "type": "unit",
+      "command": "python scripts/innovation-evaluation-tool.py --scores 8.5,7.0,9.0,6.5,8.0 --name \"测试方案\"",
+      "expected_output": ["创新方案评估报告", "测试方案", "综合得分", "等级"],
+      "timeout": 10
+    },
+    {
+      "id": "test-003",
+      "name": "anti-consensus-mining-tool.py 基本运行测试",
+      "type": "unit",
+      "command": "python scripts/anti-consensus-mining-tool.py --industry \"医疗AI\" --batch",
+      "expected_output": ["反共识机会挖掘工具", "行业：医疗AI", "共识列表", "反共识机会"],
+      "timeout": 10
+    },
+    {
+      "id": "test-004",
+      "name": "Python版本兼容性测试",
+      "type": "unit",
+      "command": "python --version",
+      "expected_output": ["Python 3."],
+      "timeout": 5
+    },
+    {
+      "id": "test-005",
+      "name": "核心文件存在性测试",
+      "type": "unit",
+      "command": "ls -la SKILL.md readme.md scripts/ references/",
+      "expected_output": ["SKILL.md", "readme.md", "fia-innovation-assistant.py", "innovation-evaluation-tool.py", "anti-consensus-mining-tool.py", "references"],
+      "timeout": 5
+    }
+  ]
+}

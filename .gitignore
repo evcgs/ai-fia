@@ -1,46 +1,24 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
-
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
-
-# Environment variables
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# OS
+# 系统文件
 .DS_Store
 Thumbs.db
-
-# Project specific
-fia-projects/
-reports/
+# 日志文件
 *.log
+logs/
+# 临时文件
+*.tmp
+*.temp
+# Python缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+# 配置文件
+config.json
+*.local.json
+# 发布文件
+dist/
+build/
+*.skill
+# 敏感信息
+secrets.md
+.env

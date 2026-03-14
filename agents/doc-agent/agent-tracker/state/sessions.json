@@ -1,0 +1,18 @@
+{
+  "lastUpdated": 1772664377,
+  "lastUpdated_iso": "2026-03-05T06:46:17.775791",
+  "sessions": [
+    {
+      "key": "agent:calendaragent:feishu:direct:ou_e91942d274fe051c5ca340d4f428165f",
+      "kind": "other",
+      "channel": "feishu",
+      "label": "CalendarAgent",
+      "displayName": "CalendarAgent",
+      "updatedAt": 1772664300025,
+      "model": "ark-code-latest",
+      "totalTokens": 31393,
+      "abortedLastRun": false
+    }
+  ],
+  "version": "1.0"
+}

@@ -1,0 +1,53 @@
+{
+  "global_awareness": {
+    "enabled": true,
+    "scan_on_startup": true,
+    "scan_scope": ["skills", "agents", "frameworks", "memory", "projects"],
+    "auto_refresh": "5m"
+  },
+  "intent_parser": {
+    "enabled": true,
+    "auto_trigger": true,
+    "intent_types": {
+      "project_task": ["迭代", "开发", "发布", "规划", "设计"],
+      "multi_agent": ["协同", "多agent", "多智能体", "分工"],
+      "professional_task": ["文档", "代码", "测试", "运维", "设计"]
+    }
+  },
+  "agent_router": {
+    "enabled": true,
+    "auto_distribute": true,
+    "routing_rules": {
+      "PMAgent": ["项目管理", "任务拆解", "进度跟踪", "版本规划"],
+      "DocAgent": ["文档编写", "规范制定", "内容优化", "翻译"],
+      "CodeAgent": ["代码开发", "脚本编写", "bug修复", "工具开发"],
+      "TestAgent": ["测试", "验证", "质量检查", "兼容性"],
+      "OpsAgent": ["发布", "部署", "Git操作", "环境配置"],
+      "RiskAgent": ["风险评估", "合规检查", "架构评审"],
+      "DesignAgent": ["图片处理", "UI设计", "可视化"]
+    },
+    "fallback": "MainAgent"
+  },
+  "oia_flow": {
+    "enabled": true,
+    "mandatory": true,
+    "steps": [
+      "意图识别",
+      "全局感知",
+      "任务分发",
+      "并行执行",
+      "交叉验证",
+      "结果汇总",
+      "质量审核",
+      "交付"
+    ],
+    "compliance_check": true,
+    "reject_incomplete": true
+  },
+  "validation_rules": {
+    "project_task": ["PMAgent计划", "跨Agent验证", "测试报告"],
+    "code_task": ["CodeAgent开发", "TestAgent测试", "DocAgent文档"],
+    "document_task": ["DocAgent编写", "TestAgent校验", "RiskAgent合规检查"],
+    "release_task": ["OpsAgent发布", "RiskAgent风险评估", "PMAgent版本验证"]
+  }
+}

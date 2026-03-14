@@ -1,0 +1,27 @@
+{
+  "id": "doc-agent",
+  "name": "文档处理智能体",
+  "version": "1.0.0",
+  "description": "专门处理文档相关任务的智能体，支持文档生成、翻译、摘要、校对、格式转换等功能",
+  "author": "OpenClaw社区",
+  "categories": ["智能体", "内容创作", "办公效率"],
+  "keywords": ["文档", "智能体", "写作", "翻译", "摘要"],
+  "requirements": {
+    "openclaw": ">=1.0.0",
+    "node": ">=16.0.0"
+  },
+  "permissions": [
+    "file:read",
+    "file:write",
+    "feishu_doc:read",
+    "feishu_doc:write",
+    "web_fetch"
+  ],
+  "install": {
+    "steps": [
+      "npm install"
+    ]
+  },
+  "homepage": "https://github.com/evcgs/doc-agent",
+  "repository": "https://github.com/evcgs/doc-agent.git"
+}

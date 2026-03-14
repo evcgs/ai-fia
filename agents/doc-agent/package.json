@@ -1,0 +1,18 @@
+{
+  "name": "doc-agent",
+  "version": "1.0.0",
+  "description": "文档处理智能体 - 支持文档生成、翻译、摘要、校对等功能",
+  "main": "scripts/main.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "document",
+    "agent",
+    "writing",
+    "translation",
+    "openclaw-agent"
+  ],
+  "author": "OpenClaw Community",
+  "license": "MIT"
+}

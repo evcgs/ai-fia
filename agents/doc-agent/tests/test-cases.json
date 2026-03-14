@@ -1,0 +1,32 @@
+{
+  "testCases": [
+    {
+      "name": "文档生成测试",
+      "type": "integration",
+      "input": "生成一份项目周报，包含进度、问题、计划三个部分",
+      "expectedOutput": {
+        "success": true,
+        "contains": ["进度", "问题", "计划"],
+        "notContains": ["错误", "失败"]
+      }
+    },
+    {
+      "name": "文档摘要测试",
+      "type": "integration",
+      "input": "给以下文档生成100字以内的摘要：【这里是测试文档内容，包含很多信息...】",
+      "expectedOutput": {
+        "success": true,
+        "maxLength": 150
+      }
+    },
+    {
+      "name": "格式转换测试",
+      "type": "integration",
+      "input": "把以下Markdown内容转换为Word格式：# 标题\n## 子标题\n正文内容",
+      "expectedOutput": {
+        "success": true,
+        "contains": ["转换完成", "下载链接"]
+      }
+    }
+  ]
+}
