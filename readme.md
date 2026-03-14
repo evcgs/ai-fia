@@ -141,10 +141,10 @@ ai-fia/
 ## 💬 联系我们
 ### 加入社区
 扫描下方二维码加入 FIA-X 官方交流群，获取最新更新、使用教程和行业案例：
-![FIA-X 交流群](https://raw.githubusercontent.com/evcgs/skill-common/main/images/group-qr.png)
+![FIA-X 交流群](./images/wxq.jpg)
 ### 商务合作
 扫描下方二维码添加创始人微信，咨询定制化培训、企业级服务和合作：
-![创始人微信](https://raw.githubusercontent.com/evcgs/skill-common/main/images/wechat-qr.png)
+![创始人微信](./images/wx.png)
 ---
 ## 🤝 贡献指南
 我们欢迎所有形式的贡献！无论是提交 bug、建议新功能、贡献行业扩展包，都请参考 [CONTRIBUTING.md](CONTRIBUTING.md) 了解详细流程。
