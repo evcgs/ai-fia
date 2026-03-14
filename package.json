@@ -1,0 +1,37 @@
+{
+  "name": "ai-fia",
+  "version": "1.0.0",
+  "description": "FIA-X: AI First Innovation Framework - A quantifiable, executable, evolvable AI-driven innovation methodology system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package": "openclaw skill package . --output ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/[your-username]/ai-fia.git"
+  },
+  "keywords": [
+    "innovation",
+    "ai",
+    "methodology",
+    "first-principle",
+    "interdisciplinary",
+    "anti-consensus",
+    "openclaw",
+    "skill"
+  ],
+  "author": "潘冬林&晨星",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/[your-username]/ai-fia/issues"
+  },
+  "homepage": "https://github.com/[your-username]/ai-fia#readme",
+  "openclaw": {
+    "skill": {
+      "id": "ai-fia",
+      "version": "1.0.0",
+      "compatibility": ">=2026.2.0"
+    }
+  }
+}
