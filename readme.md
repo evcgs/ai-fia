@@ -149,6 +149,56 @@ ai-fia/
 
 ![创始人微信](./images/wx.png)
 ---
+## 💡 创新使用场景
+### 🔹 场景1：创业项目创新孵化
+```bash
+# 启动全流程创新孵化
+python scripts/fia-innovation-assistant.py --project "AGI时代的个人知识管理工具"
+```
+**输出**：从第一性原理拆解需求→跨领域知识融合→行业共识识别→反共识机会生成→完整商业计划书+落地 roadmap+风险评估报告，全程无需手动写文档。
+
+### 🔹 场景2：企业战略创新
+```bash
+# 挖掘特定行业反共识机会
+python scripts/anti-consensus-mining-tool.py --industry "医疗AI"
+# 量化评估战略方案
+python scripts/innovation-evaluation-tool.py --interactive
+```
+**输出**：行业主流共识清单+反共识突破方向→5大维度量化评估战略方案→最优战略选择建议+落地路径+风险防控方案。
+
+### 🔹 场景3：产品功能创新
+```python
+# 作为模块集成到产品研发流程
+from scripts.innovation_evaluation_tool import InnovationEvaluationTool
+from scripts.anti_consensus_mining_tool import AntiConsensusMiningTool
+# 挖掘电商产品反共识功能点
+miner = AntiConsensusMiningTool()
+opportunities = miner.mine("电商行业")
+# 评估新功能方案
+evaluator = InnovationEvaluationTool()
+scores = {"创新性": 9.0, "可行性": 7.5, "价值性": 8.5, "可复制性": 8.0, "可进化性": 9.0}
+result = evaluator.evaluate_solution("AI导购助手功能", scores)
+print(f"方案得分：{result['total_score']}，建议：{result['suggestion']}")
+```
+**输出**：行业反共识功能创新点→功能方案量化评估报告→自动生成产品需求文档+用户故事+测试用例。
+
+### 🔹 场景4：投资项目筛选
+```bash
+# 批量评估创业项目
+python scripts/innovation-evaluation-tool.py --batch projects.json
+```
+**输出**：所有项目创新得分排名→高潜力反共识项目识别→投资建议报告+风险提示+估值参考。
+
+### 🔹 场景5：OpenClaw 自然语言触发（最便捷）
+直接用自然语言触发，无需记忆命令：
+> "帮我用FIA方法论做一个新能源电池创新项目"
+> "评估一下这个SaaS项目的创新得分"
+> "挖掘AIGC教育行业的反共识机会"
+> "生成一份医疗AI行业的创新战略报告"
+
+自动输出完整的创新方案和报告，开箱即用。
+
+---
 ## 🤝 贡献指南
 我们欢迎所有形式的贡献！无论是提交 bug、建议新功能、贡献行业扩展包，都请参考 [CONTRIBUTING.md](CONTRIBUTING.md) 了解详细流程。
 ## 📄 许可证
